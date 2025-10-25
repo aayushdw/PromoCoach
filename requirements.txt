@@ -1,0 +1,8 @@
+langchain-google-genai
+python-dotenv
+google-generativeai
+langgraph
+mypy
+llama-index
+sentence-transformers
+llama-index-embeddings-huggingface
