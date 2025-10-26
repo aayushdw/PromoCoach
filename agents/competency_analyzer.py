@@ -45,8 +45,11 @@ User Prompt Template
 I need you to analyze the competency requirements for promotion from {CURRENT_LEVEL} to {TARGET_LEVEL} in {DISCIPLINE}.
 
 CONTEXT:
+- Name: {NAME}
 - Current Level: {CURRENT_LEVEL}
 - Target Level: {TARGET_LEVEL}
+
+//note needed 
 - Engineering Discipline: {DISCIPLINE}
 - Company Size: {COMPANY_SIZE}
 - Company Type: {COMPANY_TYPE}
@@ -59,3 +62,61 @@ ADDITIONAL CONTEXT:
 
 Please provide a comprehensive analysis of what it takes to succeed at {TARGET_LEVEL}, including specific examples of behaviors, projects, and impact that demonstrate readiness.
 '''
+
+from langchain_core.messages import HumanMessage
+from langgraph.graph import StateGraph, END, START
+from langgraph.types import Send
+from typing import TypedDict, cast, List, Dict, Annotated
+from llm_provider import get_llm
+from llama_index_usage_examples import basic_example_gemini
+
+
+def competency_analyzer_execute(state) -> dict:
+    prompt = f'''You are the Competency Analyzer Agent, an expert in software engineering career frameworks and organizational competency models. Your role is to analyze and define the specific requirements for an engineer's target promotion level.
+
+ANALYSIS FRAMEWORK:
+- Technical Proficiency
+- Problem Solving
+
+Pick the categories from the Analysis framework and populate the json in the below format.
+
+OUTPUT FORMAT:
+Provide a structured JSON response with:
+{{
+  "target_level": "string",
+  "current_level": "string",
+  "competency_categories": [
+    {{
+      "category": "string",
+      "requirements": [
+        {{
+          "requirement": "string",
+          "description": "string",
+          "importance": "critical|high|medium",
+          "evaluation_criteria": ["string"]
+        }}
+      ]
+    }}
+  ],
+  "level_differentiators": ["string"],
+  "expected_scope": "string",
+  "expected_impact": "string"
+}}
+'''
+    # message = HumanMessage(content=prompt)
+    print("state: ", state)
+    txt_file = state["company_leveling_document"]
+    with open(txt_file, 'r', encoding='utf-8') as file:
+        content = file.read()
+    query_engine = basic_example_gemini(document=content)
+    competency_analyzer_output = query_engine.query(prompt)
+    # response = llm.invoke([message])
+    # famous_foods = [food.strip().replace('*', '').strip() for food in str(response.content).split('\n') if food.strip()]
+    
+    # Agent - Body part 
+
+    # Task - Only 1 
+
+    # handoff to gap analyzer 
+
+    return {"competency_analyzer_output": competency_analyzer_output}

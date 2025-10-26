@@ -36,25 +36,24 @@ def setup_gemini():
     # Set as defaults
     Settings.llm = llm
     Settings.embed_model = embed_model
+
+    print("embedding_model", embed_model.get_text_embedding_batch)
     
     print("Gemini LLM configured")
     print("Using local HuggingFace embeddings (BAAI/bge-small-en-v1.5)")
-    print("Note: First run will download the embedding model (~100MB)")
 
 # ==============================================================================
 # EXAMPLE: Basic Document Loading and Querying with Gemini
 # ==============================================================================
 
-def basic_example_gemini():
+def basic_example_gemini(document):
     """Load documents and query them using Gemini"""
     
     setup_gemini()
     
     # Create sample documents
     documents = [
-        Document(text="LlamaIndex is a data framework for LLM applications. It helps connect custom data sources to large language models."),
-        Document(text="Python is a high-level programming language known for its simplicity and readability."),
-        Document(text="Machine learning is a subset of AI that enables systems to learn from data without explicit programming.")
+        Document(text=f"{document}")
     ]
     
     # Build index (will use local embeddings)
@@ -64,9 +63,10 @@ def basic_example_gemini():
     # Query the index (will use Gemini LLM for synthesis)
     print("\nQuerying index...")
     query_engine = index.as_query_engine()
-    response = query_engine.query("What is LlamaIndex? Explain it in 3 sentences.")
-    print("\nResponse:", response)
-    print("\n")
+    return query_engine
+    # response = query_engine.query("What is LlamaIndex? Explain it in 3 sentences.")
+    # print("\nResponse:", response)
+    # print("\n")
 
 # ==============================================================================
 # Main execution
