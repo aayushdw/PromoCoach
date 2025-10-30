@@ -1,0 +1,9 @@
+crewai
+crewai-tools
+langchain-google-genai
+python-dotenv
+google-generativeai
+beautifulsoup4
+requests
+googlesearch-python
+

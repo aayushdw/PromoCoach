@@ -1,0 +1,37 @@
+# Performance Reviews - Sarah Johnson
+# Review Period: Q1-Q4 2024
+
+## Overall Rating: Exceeds Expectations
+
+### Technical Excellence
+- Consistently delivers high-quality, maintainable code
+- Led the microservices migration project, reducing system latency by 40%
+- Implemented automated testing framework, improving code coverage to 85%
+- Designed and built new API endpoints serving 1M+ requests daily
+- Strong problem-solving skills and attention to detail
+
+### Leadership & Mentorship
+- Successfully mentored 2 junior engineers who both received positive performance reviews
+- Conducts thorough code reviews and provides constructive feedback
+- Takes initiative in technical discussions and architecture decisions
+- Helps onboard new team members effectively
+
+### Communication & Collaboration
+- Clear and concise communication in both written and verbal formats
+- Collaborates well with cross-functional teams
+- Documents technical decisions and processes thoroughly
+- Participates actively in team meetings and technical discussions
+
+### Areas for Growth
+- Could benefit from more visibility across different teams
+- Opportunity to take on more strategic responsibilities
+- Consider leading larger cross-team initiatives
+
+### Goals for Next Period
+- Lead a cross-team technical initiative
+- Increase mentoring responsibilities
+- Take on more strategic planning activities
+- Improve visibility across the organization
+
+### Manager Comments
+"Sarah has been an outstanding contributor this year. Her technical skills are exceptional, and she has shown strong leadership potential. I recommend her for promotion consideration."

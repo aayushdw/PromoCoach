@@ -1,0 +1,96 @@
+# Manager Notes - Sarah Johnson
+# Performance Review: Q4 2024
+
+## Overall Assessment
+
+Sarah has been an exceptional contributor to our backend engineering team this year. Her technical skills are outstanding, and she has consistently delivered high-quality work that exceeds expectations. She has shown strong leadership potential and has become a trusted mentor to junior team members.
+
+## Technical Excellence
+
+### Strengths
+- **Code Quality**: Consistently writes clean, maintainable, and well-documented code
+- **Problem Solving**: Excellent at breaking down complex problems and finding elegant solutions
+- **Architecture Skills**: Strong understanding of system design and microservices architecture
+- **Performance Optimization**: Successfully led the microservices migration that reduced system latency by 40%
+- **Testing**: Implemented comprehensive automated testing framework, improving code coverage to 85%
+
+### Key Achievements
+- Led the microservices migration project from start to finish
+- Designed and built new API endpoints that now serve 1M+ requests daily
+- Implemented automated testing framework that improved team productivity
+- Conducted thorough code reviews and provided valuable feedback to team members
+- Successfully debugged and resolved critical production issues
+
+## Leadership and Mentorship
+
+### Strengths
+- **Mentoring**: Successfully mentored 2 junior engineers who both received positive performance reviews
+- **Knowledge Sharing**: Regularly shares technical knowledge and best practices with the team
+- **Code Reviews**: Provides thorough, constructive feedback during code reviews
+- **Team Collaboration**: Works well with cross-functional teams and stakeholders
+- **Initiative**: Takes initiative in technical discussions and architecture decisions
+
+### Areas for Growth
+- **Cross-team Visibility**: Could benefit from more exposure to other teams and departments
+- **Strategic Thinking**: Opportunity to take on more strategic responsibilities and planning
+- **External Communication**: Could improve visibility in external technical communities
+- **Project Management**: Opportunity to lead larger, more complex projects
+
+## Communication and Collaboration
+
+### Strengths
+- **Written Communication**: Clear and concise in documentation and technical writing
+- **Verbal Communication**: Effective in team meetings and technical discussions
+- **Cross-functional Collaboration**: Works well with product, design, and other engineering teams
+- **Documentation**: Creates comprehensive technical documentation
+
+### Areas for Growth
+- **Presentation Skills**: Could improve public speaking and presentation abilities
+- **Stakeholder Communication**: Opportunity to communicate more with senior leadership
+- **External Representation**: Could represent the team in external forums and conferences
+
+## Goals and Development Plan
+
+### Short-term Goals (Next 6 months)
+1. Lead a cross-team technical initiative
+2. Increase mentoring responsibilities
+3. Take on more strategic planning activities
+4. Improve visibility across the organization
+5. Present technical work to senior leadership
+
+### Long-term Goals (Next 12 months)
+1. Consider promotion to Senior Staff Engineer (L5)
+2. Lead larger, more complex projects
+3. Establish technical leadership in specific domain areas
+4. Contribute to company-wide technical standards
+5. Mentor more junior engineers
+
+### Development Recommendations
+1. **Technical Leadership**: Take on more architectural decision-making responsibilities
+2. **Cross-team Collaboration**: Lead initiatives that span multiple teams
+3. **Strategic Planning**: Participate in quarterly planning and roadmap discussions
+4. **External Engagement**: Attend conferences and contribute to open source projects
+5. **Mentoring**: Expand mentoring to include more team members
+
+## Promotion Readiness
+
+Sarah demonstrates strong readiness for promotion to L5 (Senior Staff Engineer). She has:
+- Consistently exceeded expectations in technical delivery
+- Shown strong leadership and mentoring capabilities
+- Demonstrated ability to lead complex technical projects
+- Proven track record of improving team productivity and code quality
+- Shown initiative in taking on additional responsibilities
+
+### Areas to Address Before Promotion
+1. Increase cross-team visibility and collaboration
+2. Take on more strategic responsibilities
+3. Lead larger, more complex projects
+4. Improve external communication and representation
+5. Demonstrate impact beyond immediate team
+
+## Overall Recommendation
+
+I strongly recommend Sarah for promotion consideration. She has been an outstanding contributor and has shown strong potential for growth into more senior roles. With continued development in the areas identified above, she will be well-positioned for promotion to L5.
+
+**Rating: Exceeds Expectations**
+**Promotion Recommendation: Yes, with continued development**
